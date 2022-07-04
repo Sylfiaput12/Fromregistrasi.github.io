@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="utama">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="active" href="#registrasi">Registrasi</a></li>
+        </ul>
+        . <h1 align="center"> FORM REGISTRASI</h1>
+        <p> Silahkan untuk mengisi data dengan benar!</p>
+        <div class="container">
+            <div class="col-15">
+                <h3>Data Pribadi</h3>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="nama">Nama Lengkap</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="nama" placeholder="Masukkan Nama Lengkap" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tempatl">Tempat Lahir</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="tempatl" name="TempatLahir" placeholder="Masukkan Tempat Lahir" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="TanggalLahir">Tanggal Lahir</label>
+                    </div>
+                    <div class="col-55">
+                        <select id="TanggalL" name="TanggalLahir" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </div>
+                    <div class="bulan">
+                        <select id="bulan" name="bulan" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="tahun">
+                        <select id="tahun" name="tahun" required>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="asal">Kota Asal</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="asal" name="kota asal" required>
+                            <option value="Karawang">Karawang</option>
+                            <option value="Cikarang">Cikarang</option>
+                            <option value="Bandung">Bandung</option>
+                            <option value="Bogor">Bogor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Warna">Warna Kesukaan</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Masukkan Warna Kesukaan" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-15">
+                <h3> Data Akun</h3>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="alamatemail" placeholder="Masukkan Alamat Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="pass">Password</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="pass" name="Password" placeholder="Masukkan Password" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-15">
+                <h3>Keahlian/Skill</h3>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="skill">Bahasa Pemprograman Yang Disukai</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="checkbox" id="skill1" name="skill1" value="Web">
+                        <label for="skill1"> Web </label>
+                        <input type="checkbox" id="skill2" name="skill2" value="Mobile">
+                        <label for="vehicle2"> Mobile </label>
+                        <input type="checkbox" id="skill3" name="skill3" value="Dekstop">
+                        <label for="vehicle3"> Dekstop </label>
+                        <input type="checkbox" id="skill4" name="skill4" value="Tidakada">
+                        <label for="vehicle3"> Tidak Ada </label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-15">
+            <h3> Catatan </h3>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Pesan Anda</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.. " required
+                        style="height:100px"></textarea>
+                </div>
+            </div>
+            </div>
+            
+            <div class="row">
+                <input type="submit" value="Kirim" alert="Data Anda Sudah DImasukkan">
+            </div>
+            </form>
+        </div>
+</body>
+
+</html>
